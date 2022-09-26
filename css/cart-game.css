@@ -1,0 +1,82 @@
+.size-textarea{
+    height: 150px;
+    resize: none;
+}
+.text-right{
+    text-align: right!important;
+}
+.bg-gradient-violet{
+    background:linear-gradient(to right bottom,blueviolet,rgba(55,0,129,1));
+}
+.roun-left{
+    border-radius: 0;
+}
+.roun-right{
+    border-radius: 0;
+}
+.bg-gradient-violet .form-control::placeholder{
+    color: white;
+}
+.bg-gradient-violet .form-control:focus{
+    background: none!important;
+    border: 2px solid rgba(202,188,246,1);
+    box-shadow: 0 2px 8px rebeccapurple;
+}
+.btn-white{
+    background-color: white;
+    color: blueviolet;
+}
+.btn-outline-white{
+    border: 2px solid white;
+    color: white;
+}
+.btn-outline-white:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.line{
+    height: 1px;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(185,171,246,1);
+}
+.text-left{
+    text-align: left;
+}
+.text-gray2{
+    color: #ededed;
+}
+.border-off{
+    border: 2px solid white;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(219,255,252,1);
+    color: rgba(0,84,49,1);
+}
+.img{
+    width: 100%;
+
+}
+@media (min-width: 768px) {
+    .roun-left{
+        border-radius: 0 0 25px 25px;
+    }
+    .roun-right{
+        border-radius: 25px 25px 0 0;
+    }
+}
+@media (min-width: 992px) {
+.roun-left{
+    border-radius: 25px 0 0 25px;
+}
+    .roun-right{
+        border-radius: 0 25px 25px 0;
+    }
+}

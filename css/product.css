@@ -1,0 +1,150 @@
+.addres>li{
+    position: relative;
+    padding: 0 15px 0 5px;
+}
+.addres>.li:before{
+    content: "/";
+    position: absolute;
+    right:0;
+}
+.addres>li>a{
+    color: rgba(15,0,26,1);
+    text-decoration: none;
+}
+.addres>.active{
+    color:rgba(146,0,255,1) !important;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+.box-star{
+    width: 80px;
+    height: 16px;
+    position: relative;
+}
+.star{
+    position: absolute;
+    width: 100%;
+    background: url('../jpg/star.png');
+    height: 16px;
+    display: block;
+}
+.m{
+ margin: 4px;
+}
+.text-gray2{
+    color: #888;
+}
+.img-product {
+    height: auto;
+}
+.shomaresh{
+    padding: 4px 8px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1a1e21;
+    color: white;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 30px;
+}
+.number-2{
+    width: 100px;
+    background-color: #f8f9fa;
+}
+.margin-top{
+    margin-top: 3.5rem;
+}
+.text-violet-dark{
+    color:rgba(81,13,125,1);
+}
+.line{
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    height: 1px;
+    width: 90%;
+    right: 12px;
+    background-color: rgba(60,61,60,1);
+}
+.line-27{
+    line-height: 27px;
+}
+.right{
+    text-align: right;
+}
+.bg-none{
+    background: none;
+}
+
+.box{
+    border: 1px solid #ccc;
+}
+.bg-gary{
+    background-color: rgba(240,240,240,1);
+}
+.bg-gary2{
+    background-color: rgba(252,252,255,1);
+}
+.nav-scroll>.nav-item>.nav-link{
+    text-align: right;
+    position: relative;
+    color: #1a1e21;
+    font-size: 14px;
+
+}
+.nav-scroll>.nav-item>.nav-link:hover{
+    color: rgba(97,0,168,1);
+}
+.nav-scroll>.nav-item>.nav-link::before{
+    content: "";
+    right: 0;
+    background-color: rgba(81,13,125,1);
+    height: 0;
+    bottom: 0;
+    width: 0;
+    transition: all .2s ease-in;
+    position:absolute;
+}
+.nav-scroll>.nav-item>.nav-link:hover::before{
+    width: 30%;
+    height: 2px;
+    background-color: rgba(97,0,168,1);
+}
+.mt-18{
+    margin-top: 18px;
+}
+.box-didgah{
+    border: 1px solid #eee;
+}
+.replay{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .zemanat{
+        display: none;
+    }
+    .nav-scroll>.nav-item>.nav-link:hover::before{
+        width: 100%;
+    }
+    .img-product{
+        height: 400px;
+    }
+}
+@media (min-width: 996px) {
+    .zemanat{
+        display: block;
+    }
+
+}
